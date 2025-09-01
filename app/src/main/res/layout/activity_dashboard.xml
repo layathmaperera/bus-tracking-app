@@ -25,7 +25,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="RouteMate"
+            android:text="@string/routemate"
             android:textSize="20sp"
             android:textStyle="bold"
             android:textColor="@android:color/darker_gray"
@@ -38,7 +38,7 @@
             android:layout_height="48dp"
             android:background="?android:attr/selectableItemBackgroundBorderless"
             android:src="@drawable/settings"
-            android:contentDescription="Settings"
+            android:contentDescription="@string/settings"
             android:scaleType="centerInside"
             android:padding="12dp"
             app:tint="@android:color/darker_gray" />
@@ -78,7 +78,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Find Your Bus Route"
+                        android:text="@string/find_your_bus_route"
                         android:textColor="@color/font"
                         android:textSize="20sp"
                         android:textStyle="bold"
@@ -104,7 +104,7 @@
                             android:id="@+id/etCurrentLocation"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:hint="Current Location"
+                            android:hint="@string/current_location"
                             android:background="@null"
                             android:textSize="14sp"/>
                     </LinearLayout>
@@ -129,7 +129,7 @@
                             android:id="@+id/etDestination"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:hint="Destination"
+                            android:hint="@string/destination"
                             android:background="@null"
                             android:textSize="14sp"/>
                     </LinearLayout>
@@ -157,7 +157,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Search"
+                            android:text="@string/search"
                             android:textColor="#FFFFFF"
                             android:textSize="16sp"
                             android:textStyle="bold"/>
@@ -190,7 +190,7 @@
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:text="Nearby Buses"
+                            android:text="@string/nearby_buses"
                             android:textColor="@color/font"
                             android:textSize="16sp"
                             android:textStyle="bold" />
@@ -206,7 +206,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="8dp"
-                        android:text="Find buses operating near you right now."
+                        android:text="@string/find_buses_operating_near_you_right_now"
                         android:textColor="#6B7280"
                         android:textSize="14sp"/>
                 </LinearLayout>
@@ -237,7 +237,7 @@
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:text="My Profile"
+                            android:text="@string/my_profile"
                             android:textSize="16sp"
                             android:textStyle="bold"
                             android:textColor="@color/font"/>
@@ -252,7 +252,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="8dp"
-                        android:text="View and edit your personal information."
+                        android:text="@string/editInfo"
                         android:textColor="#6B7280"
                         android:textSize="14sp"/>
                 </LinearLayout>
@@ -283,7 +283,7 @@
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:text="Notifications"
+                            android:text="@string/notifications"
                             android:textSize="16sp"
                             android:textStyle="bold"
                             android:textColor="@color/font"/>
@@ -298,7 +298,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="8dp"
-                        android:text="Check alerts for delays and route changes."
+                        android:text="@string/check_alerts_for_delays_and_route_changes"
                         android:textColor="#6B7280"
                         android:textSize="14sp"/>
                 </LinearLayout>
@@ -329,7 +329,7 @@
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:text="SOS"
+                            android:text="@string/sos"
                             android:textSize="16sp"
                             android:textStyle="bold"
                             android:textColor="@color/font"/>
@@ -344,7 +344,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="8dp"
-                        android:text="Send an emergency alert to authorities."
+                        android:text="@string/send_an_emergency_alert_to_authorities"
                         android:textColor="#6B7280"
                         android:textSize="14sp"/>
                 </LinearLayout>
@@ -418,7 +418,7 @@
                 android:id="@+id/labelProfile"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Profile"
+                android:text="@string/profile"
                 android:textSize="12sp"
                 android:textColor="@android:color/darker_gray"
                 android:layout_marginTop="4dp" />
@@ -448,7 +448,7 @@
                 android:id="@+id/labelNotifications"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Alerts"
+                android:text="@string/alerts"
                 android:textSize="12sp"
                 android:textColor="@android:color/darker_gray"
                 android:layout_marginTop="4dp" />
@@ -478,7 +478,7 @@
                 android:id="@+id/labelPackages"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Packages"
+                android:text="@string/packages"
                 android:textSize="12sp"
                 android:textColor="@android:color/darker_gray"
                 android:layout_marginTop="4dp" />
@@ -508,7 +508,7 @@
                 android:id="@+id/labelSOS"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="SOS"
+                android:text="@string/sos"
                 android:textSize="12sp"
                 android:textColor="#d32f2f"
                 android:layout_marginTop="4dp"

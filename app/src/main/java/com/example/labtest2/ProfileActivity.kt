@@ -18,7 +18,7 @@ class ProfileActivity : AppCompatActivity() {
         val btnSave: Button = findViewById(R.id.btnSave)
         val btnLogout: Button = findViewById(R.id.btnLogout)
 
-        // ✅ Save Changes → go to Dashboard
+        //  Save Changes → go to Dashboard
         btnSave.setOnClickListener {
             val intent = Intent(this, DashboardActivity::class.java)
             startActivity(intent)
@@ -32,7 +32,7 @@ class ProfileActivity : AppCompatActivity() {
             finish()
         }
 
-        //  Back to Home → also go to Dashboard
+//          //Back to Home → also go to Dashboard
 //        tvBackHome.setOnClickListener {
 //            val intent = Intent(this, DashboardActivity::class.java)
 //            startActivity(intent)

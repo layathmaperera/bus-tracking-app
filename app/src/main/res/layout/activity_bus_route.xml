@@ -25,7 +25,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="RouteMate"
+            android:text="@string/routemate"
             android:textSize="20sp"
             android:textStyle="bold"
             android:textColor="@android:color/darker_gray"
@@ -38,7 +38,7 @@
             android:layout_height="48dp"
             android:background="?android:attr/selectableItemBackgroundBorderless"
             android:src="@drawable/settings"
-            android:contentDescription="Settings"
+            android:contentDescription="@string/settings"
             android:scaleType="centerInside"
             android:padding="12dp"
             app:tint="@android:color/darker_gray" />
@@ -61,7 +61,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Available Bus Routes"
+                android:text="@string/available_bus_routes"
                 android:textSize="22sp"
                 android:textStyle="bold"
                 android:padding="16dp"
@@ -104,7 +104,7 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Route 45B"
+                                android:text="@string/route_45b"
                                 android:textSize="18sp"
                                 android:textStyle="bold"
                                 android:textColor="#051B70"/>
@@ -112,7 +112,7 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Central Station → Tech Park"
+                                android:text="@string/colombo_gampaha"
                                 android:textSize="14sp"
                                 android:textColor="#757575"/>
                         </LinearLayout>
@@ -120,7 +120,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="On Time"
+                            android:text="@string/on_time"
                             android:padding="6dp"
                             android:textColor="@android:color/white"
                             android:textStyle="bold"
@@ -139,7 +139,7 @@
                             android:layout_width="0dp"
                             android:layout_weight="1"
                             android:layout_height="wrap_content"
-                            android:text="ETA: 15 min"
+                            android:text="@string/eta_15_min"
                             android:textColor="#0D47A1"
                             android:textStyle="bold"/>
 
@@ -147,7 +147,7 @@
                             android:layout_width="0dp"
                             android:layout_weight="1"
                             android:layout_height="wrap_content"
-                            android:text="12 stops"
+                            android:text="@string/_12_stops"
                             android:textColor="#0D47A1"
                             android:textStyle="bold"/>
                     </LinearLayout>
@@ -155,7 +155,7 @@
                     <Button
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Track Bus"
+                        android:text="@string/track_bus"
                         android:layout_marginTop="12dp"
                         android:backgroundTint="@color/buttons"
                         android:textColor="@android:color/white"/>
@@ -197,7 +197,7 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Route 101A"
+                                android:text="@string/route_101a"
                                 android:textSize="18sp"
                                 android:textStyle="bold"
                                 android:textColor="#051B70"/>
@@ -205,7 +205,7 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="City Airport → Downtown"
+                                android:text="@string/gampaha_kaduwela"
                                 android:textSize="14sp"
                                 android:textColor="#757575"/>
                         </LinearLayout>
@@ -213,7 +213,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Delayed"
+                            android:text="@string/delayed"
                             android:padding="6dp"
                             android:textColor="@android:color/white"
                             android:textStyle="bold"
@@ -232,7 +232,7 @@
                             android:layout_width="0dp"
                             android:layout_weight="1"
                             android:layout_height="wrap_content"
-                            android:text="ETA: 25 min"
+                            android:text="@string/eta_25_min"
                             android:textColor="#0D47A1"
                             android:textStyle="bold"/>
 
@@ -240,7 +240,7 @@
                             android:layout_width="0dp"
                             android:layout_weight="1"
                             android:layout_height="wrap_content"
-                            android:text="8 stops"
+                            android:text="@string/_8_stops"
                             android:textColor="#0D47A1"
                             android:textStyle="bold"/>
                     </LinearLayout>
@@ -248,7 +248,7 @@
                     <Button
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Track Bus"
+                        android:text="@string/track_bus"
                         android:layout_marginTop="12dp"
                         android:backgroundTint="@color/buttons"
                         android:textColor="@android:color/white"/>
@@ -290,7 +290,7 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Route 7C"
+                                android:text="@string/route_7c"
                                 android:textSize="18sp"
                                 android:textStyle="bold"
                                 android:textColor="#051B70"/>
@@ -298,7 +298,7 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="North Suburbs → University Campus"
+                                android:text="@string/minuwangoda_nugegoda"
                                 android:textSize="14sp"
                                 android:textColor="#757575"/>
                         </LinearLayout>
@@ -306,7 +306,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="On Time"
+                            android:text="@string/on_time"
                             android:padding="6dp"
                             android:textColor="@android:color/white"
                             android:textStyle="bold"
@@ -325,7 +325,7 @@
                             android:layout_width="0dp"
                             android:layout_weight="1"
                             android:layout_height="wrap_content"
-                            android:text="ETA: 5 min"
+                            android:text="@string/eta_5_min"
                             android:textColor="#0D47A1"
                             android:textStyle="bold"/>
 
@@ -333,7 +333,7 @@
                             android:layout_width="0dp"
                             android:layout_weight="1"
                             android:layout_height="wrap_content"
-                            android:text="15 stops"
+                            android:text="@string/_15_stops"
                             android:textColor="#0D47A1"
                             android:textStyle="bold"/>
                     </LinearLayout>
@@ -341,7 +341,7 @@
                     <Button
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Track Bus"
+                        android:text="@string/track_bus"
                         android:layout_marginTop="12dp"
                         android:backgroundTint="@color/buttons"
                         android:textColor="@android:color/white"/>
@@ -383,7 +383,7 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Route 22"
+                                android:text="@string/route_22"
                                 android:textSize="18sp"
                                 android:textStyle="bold"
                                 android:textColor="#051B70"/>
@@ -391,7 +391,7 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="West Market → East Mall"
+                                android:text="@string/divlapitiya_malabe"
                                 android:textSize="14sp"
                                 android:textColor="#757575"/>
                         </LinearLayout>
@@ -399,7 +399,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="On Time"
+                            android:text="@string/on_time"
                             android:padding="6dp"
                             android:textColor="@android:color/white"
                             android:textStyle="bold"
@@ -418,7 +418,7 @@
                             android:layout_width="0dp"
                             android:layout_weight="1"
                             android:layout_height="wrap_content"
-                            android:text="ETA: 30 min"
+                            android:text="@string/eta_30_min"
                             android:textColor="#0D47A1"
                             android:textStyle="bold"/>
 
@@ -426,7 +426,7 @@
                             android:layout_width="0dp"
                             android:layout_weight="1"
                             android:layout_height="wrap_content"
-                            android:text="20 stops"
+                            android:text="@string/_20_stops"
                             android:textColor="#0D47A1"
                             android:textStyle="bold"/>
                     </LinearLayout>
@@ -434,7 +434,7 @@
                     <Button
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Track Bus"
+                        android:text="@string/track_bus"
                         android:layout_marginTop="12dp"
                         android:backgroundTint="@color/buttons"
                         android:textColor="@android:color/white"/>
@@ -476,7 +476,7 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Route S-5"
+                                android:text="@string/route_s_5"
                                 android:textSize="18sp"
                                 android:textStyle="bold"
                                 android:textColor="#051B70"/>
@@ -484,7 +484,7 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="South Beach → Art Museum"
+                                android:text="@string/katunayake_colombo"
                                 android:textSize="14sp"
                                 android:textColor="#757575"/>
                         </LinearLayout>
@@ -492,7 +492,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Crowded"
+                            android:text="@string/crowded"
                             android:padding="6dp"
                             android:textColor="@android:color/white"
                             android:textStyle="bold"
@@ -511,7 +511,7 @@
                             android:layout_width="0dp"
                             android:layout_weight="1"
                             android:layout_height="wrap_content"
-                            android:text="ETA: 12 min"
+                            android:text="@string/eta_12_min"
                             android:textColor="#0D47A1"
                             android:textStyle="bold"/>
 
@@ -519,7 +519,7 @@
                             android:layout_width="0dp"
                             android:layout_weight="1"
                             android:layout_height="wrap_content"
-                            android:text="10 stops"
+                            android:text="@string/_10_stops"
                             android:textColor="#0D47A1"
                             android:textStyle="bold"/>
                     </LinearLayout>
@@ -527,7 +527,7 @@
                     <Button
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Track Bus"
+                        android:text="@string/track_bus"
                         android:layout_marginTop="12dp"
                         android:backgroundTint="@color/buttons"
                         android:textColor="@android:color/white"/>
@@ -569,7 +569,7 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Route X2"
+                                android:text="@string/route_x2"
                                 android:textSize="18sp"
                                 android:textStyle="bold"
                                 android:textColor="#051B70"/>
@@ -577,7 +577,7 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Express Terminal → Financial District"
+                                android:text="@string/jaela_panadura"
                                 android:textSize="14sp"
                                 android:textColor="#757575"/>
                         </LinearLayout>
@@ -585,7 +585,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="On Time"
+                            android:text="@string/on_time"
                             android:padding="6dp"
                             android:textColor="@android:color/white"
                             android:textStyle="bold"
@@ -604,7 +604,7 @@
                             android:layout_width="0dp"
                             android:layout_weight="1"
                             android:layout_height="wrap_content"
-                            android:text="ETA: 18 min"
+                            android:text="@string/eta_18_min"
                             android:textColor="#0D47A1"
                             android:textStyle="bold"/>
 
@@ -612,7 +612,7 @@
                             android:layout_width="0dp"
                             android:layout_weight="1"
                             android:layout_height="wrap_content"
-                            android:text="14 stops"
+                            android:text="@string/_14_stops"
                             android:textColor="#0D47A1"
                             android:textStyle="bold"/>
                     </LinearLayout>
@@ -620,7 +620,7 @@
                     <Button
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Track Bus"
+                        android:text="@string/track_bus"
                         android:layout_marginTop="12dp"
                         android:backgroundTint="@color/buttons"
                         android:textColor="@android:color/white"/>
@@ -664,7 +664,7 @@
                 android:id="@+id/labelHome"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Home"
+                android:text="@string/home"
                 android:textSize="12sp"
                 android:textColor="@android:color/darker_gray"
                 android:layout_marginTop="4dp" />
@@ -694,7 +694,7 @@
                 android:id="@+id/labelProfile"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Profile"
+                android:text="@string/profile"
                 android:textSize="12sp"
                 android:textColor="@android:color/darker_gray"
                 android:layout_marginTop="4dp" />
@@ -724,7 +724,7 @@
                 android:id="@+id/labelNotifications"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Alerts"
+                android:text="@string/alerts"
                 android:textSize="12sp"
                 android:textColor="@android:color/darker_gray"
                 android:layout_marginTop="4dp" />
@@ -754,7 +754,7 @@
                 android:id="@+id/labelPackages"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Packages"
+                android:text="@string/packages"
                 android:textSize="12sp"
                 android:textColor="@android:color/darker_gray"
                 android:layout_marginTop="4dp" />
@@ -784,7 +784,7 @@
                 android:id="@+id/labelSOS"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="SOS"
+                android:text="@string/sos"
                 android:textSize="12sp"
                 android:textColor="#d32f2f"
                 android:layout_marginTop="4dp"

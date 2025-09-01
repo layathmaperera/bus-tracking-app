@@ -1,14 +1,14 @@
 <resources>
     <string name="app_name">tes2</string>
 
+<!--    profile-->
     <string name="let_s_start">Let\'s Start</string>
-    <string name="john_doe">John Doe</string>
-    <string name="john_doe_example_com">john.doe@example.com</string>
     <string name="save_changes">Save Changes</string>
     <string name="logout">Logout</string>
     <string name="sos_button">SOS Button</string>
     <string name="emergency_sos">Emergency SOS</string>
-    <string name="press_the_button_to_send_an_alert_to_emergency_contacts_and_local_authorities_with_your_location">Press the button to send an alert to emergency contacts and local authorities with your location.</string>
+
+<!--    Home-->
     <string name="welcome">ENJOY THE RIDE</string>
     <string name="route_mate">Route Mate</string>
     <string name="sign_in">Sign In</string>
@@ -89,4 +89,84 @@
     <string name="day_pass">Day Pass</string>
     <string name="rs_300">Rs.300</string>
     <string name="per_day">per day</string>
+    <string name="find_your_bus_route">Find Your Bus Route</string>
+    <string name="current_location">Current Location</string>
+    <string name="destination">Destination</string>
+    <string name="search">Search</string>
+    <string name="nearby_buses">Nearby Buses</string>
+    <string name="find_buses_operating_near_you_right_now">Find buses operating near you right now.</string>
+    <string name="editInfo">View and edit your personal information.</string>
+    <string name="notifications">Notifications</string>
+    <string name="check_alerts_for_delays_and_route_changes">Check alerts for delays and route changes.</string>
+    <string name="send_an_emergency_alert_to_authorities">Send an emergency alert to authorities.</string>
+    <string name="tracking_bus_number">Tracking Bus Number 22A</string>
+    <string name="bus_number__empty">Bus number cannot be empty</string>
+    <string name="eta_10_35_am">ETA: 10:35 AM</string>
+    <string name="next_stop">Next Stop</string>
+    <string name="press_the_button_to_send_an_alert_to_emergency_contacts_and_local_authorities_with_your_location">Press the button to send an alert to emergency contacts and local authorities with your location.</string>
+
+    <string name="_10_28_am">10:28 AM</string>
+    <string name="biyagama">Biyagama</string>
+    <string name="_10_20_am">10:20 AM</string>
+    <string name="weliweriya">Weliweriya</string>
+    <string name="_10_35_am">10:35 AM</string>
+    <string name="_10_12_am">10:12 AM</string>
+    <string name="kaduwela">Kaduwela</string>
+
+    <string name="_10_05_am">10:05 AM</string>
+    <string name="malabe">Malabe</string>
+    <string name="delgoda">Delgoda</string>
+    <string name="available_bus_routes">Available Bus Routes</string>
+    <string name="route_45b">Route 45B</string>
+    <string name="colombo_gampaha">Colombo → Gampaha</string>
+    <string name="on_time">On Time</string>
+    <string name="eta_15_min">ETA: 15 min</string>
+    <string name="_12_stops">12 stops</string>
+    <string name="track_bus">Track Bus</string>
+    <string name="route_101a">Route 101A</string>
+    <string name="gampaha_kaduwela">Gampaha → Kaduwela</string>
+    <string name="delayed">Delayed</string>
+    <string name="eta_25_min">ETA: 25 min</string>
+    <string name="_8_stops">8 stops</string>
+    <string name="route_7c">Route 7C</string>
+    <string name="minuwangoda_nugegoda">Minuwangoda → Nugegoda</string>
+    <string name="eta_5_min">ETA: 5 min</string>
+    <string name="_15_stops">15 stops</string>
+    <string name="route_22">Route 22</string>
+    <string name="divlapitiya_malabe">Divlapitiya → Malabe</string>
+    <string name="eta_30_min">ETA: 30 min</string>
+    <string name="_20_stops">20 stops</string>
+    <string name="route_s_5">Route S-5</string>
+    <string name="katunayake_colombo">Katunayake → Colombo</string>
+    <string name="crowded">Crowded</string>
+    <string name="eta_12_min">ETA: 12 min</string>
+    <string name="_10_stops">10 stops</string>
+    <string name="route_x2">Route X2</string>
+    <string name="jaela_panadura">JaEla → Panadura</string>
+    <string name="eta_18_min">ETA: 18 min</string>
+    <string name="_14_stops">14 stops</string>
+    <string name="auto_renews">• Auto-renews</string>
+
+    <string name="perfect_for_daily_commuters">• Perfect for daily commuters</string>
+    <string name="unlimited_trips_for_a_month">• Unlimited trips for a month</string>
+    <string name="per_month">per month</string>
+    <string name="monthly_pass">Monthly Pass</string>
+    <string name="best_for_tourists">• Best for tourists</string>
+    <string name="all_routes_included">• All routes included</string>
+    <string name="unlimited_trips_for_24_hours">• Unlimited trips for 24 hours</string>
+    <string name="no_more_notifications">No more notifications</string>
+    <string name="check_out_the_new_monthly_unlimited_travel_pass_in_the_packages_section">Check out the new Monthly Unlimited travel pass in the Packages section.</string>
+    <string name="_3d_ago">3d ago</string>
+    <string name="new_package_available">New Package Available</string>
+    <string name="a_detour_is_in_effect_for_route_101a_around_city_hall_expect_minor_delays">A detour is in effect for route 101A around City Hall. Expect minor delays.</string>
+    <string name="_1h_ago">1h ago</string>
+    <string name="route_101a_detour">Route 101A Detour</string>
+    <string name="bus_45b_is_running_10_minutes_late_due_to_traffic">Bus 45B is running 10 minutes late due to traffic.</string>
+    <string name="_5m_ago">5m ago</string>
+    <string name="route_45b_delayed">Route 45B Delayed</string>
+    <string name="notification">Notifications</string>
+    <string name="every_journey_nmade_effortless">EVERY JOURNEY\nMADE EFFORTLESS.</string>
+    <string name="welcome_back">Welcome Back 👋</string>
+    <string name="sign_in_to_continue">Sign in to continue</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
 </resources>
