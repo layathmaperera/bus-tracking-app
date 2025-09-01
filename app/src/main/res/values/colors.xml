@@ -2,39 +2,16 @@
 <resources>
 
 <!--    60-30-10 colors-->
+    <color name="buttons">#0D47A1</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="darker_gray">#A9A9A9</color>
 
-    <color name="primary">#F5F5F5</color>
-    <color name="secondary">#0D47A1</color>
-    <color name="accent">#F59E0B</color>
 
 <!--    other colors-->
-    <color name="darker_gray">#A9A9A9</color>
+    <color name="secondary">#F59E0B</color>
     <color name="black">#FF000000</color>
     <color name="font">#051B70</color>
     <color name="imageCol">#051B70</color>
     <color name="_000080">#000080</color>
 
 </resources>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!--<color name="buttons">#0D47A1</color>-->
-<!--<color name="white">#FFFFFFFF</color>-->
-<!--<color name="darker_gray">#A9A9A9</color>-->
